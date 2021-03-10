@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<!-- Cheech's Flexible Pizza Parlor
+   Author: Chauntel Atchley Cully
+   Date: 02/20/2021 -->
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Cheech's Flexible Pizza Parlor</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <img class="flex-header" src="Header.jpg" alt="">
+    <nav>
+      <ul class="nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="index.html">Menu</a></li>
+        <li><a href="order.html">Order Online</a></li>
+        <li><a href="#">Our Location</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="flexrow-order">
+    <form method="get" action="thankyou.html">
+      <div class="flexclmn-order">
+        <h2>Enter Your Selection</h2>
+        Please fill in the form, and we will be delivering your pizza lickety split <br />
+        <label for="name">
+          <input class="info" autofocus type="text" name="name" id="name" required placeholder="Name" />
+        </label>
+        <label for="phone">
+          <input class="info" type="text" name="phone" id="phone" required placeholder="Phone" />
+        </label>
+        <select class="selection" name="pizza" id="pizza" required>
+          <option value="">Select One</option>
+          <option value="Cheese Pizza">Cheese Pizza</option>
+          <option value="Cheech's Pizza">Cheech's Pizza</option>
+          <option value="BBQ Chicken Pizza">BBQ Chicken Pizza</option>
+          <option value="Hawaiian Pizza">Hawaiian Pizza</option>
+          <option value="The Vegan Pizza">The Vegan Pizza</option>
+          <option value="The Veggie Pizza">The Veggie Pizza</option>
+        </select>
+        <input class="selection" type="number" name="number" value="" step="1" min="1" max="20" required placeholder="1">
+        <select class="selection" name="Pizza" id="Pizza">
+          <option value="">Select One</option>
+          <option value="Cheese Pizza">Cheese Pizza</option>
+          <option value="Cheech's Pizza">Cheech's Pizza</option>
+          <option value="BBQ Chicken Pizza">BBQ Chicken Pizza</option>
+          <option value="Hawaiian Pizza">Hawaiian Pizza</option>
+          <option value="The Vegan Pizza">The Vegan Pizza</option>
+          <option value="The Veggie Pizza">The Veggie Pizza</option>
+        </select>
+        <input class="selection" type="number" name="number" value="" step="1" min="1" max="20" placeholder="1">
+        <input class="submit" type="submit" value="PLACE ORDER" />
+      </div>
+    </form>
+    <div class="flexclmn-order">
+      <blockquote>
+        <p><img src="goldStar.png" alt="5 stars" /><img src="goldStar.png" alt="" /><img src="goldStar.png" alt="" /><img src="goldStar.png" alt="" /><img src="goldStar.png" alt="" /></p>
+        <h3>The pizza was perfect, the service was super!</h3>
+        <p class="bq">Harrison Ford <br> 5/22/2008</p>
+      </blockquote>
+      <h3>Connect with us</h3>
+      <p>For support or any questions: </p>
+      <p>Email us at <a href="mailto:support@cheechspizza.com">support@cheechspizza.com</a> </p>
+      <h3>Social Media</h3>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-youtube"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-snapchat-ghost"></a>
+    </div>
+  </div>
+  <footer>Site Created and Edited by Chauntel Atchley Cully © 2021</footer>
+</body>
+
+</html>
